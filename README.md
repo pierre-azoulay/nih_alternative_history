@@ -54,7 +54,7 @@ This repository contains the materials to reproduce the quantitative results for
    ```
 5. Outputs (tables/figures) will be written to `./tables` and `./graphs`.
 
-> Typical runtime: **< 1 minute** on a standard desktop.
+> Typical runtime: **< 30 secons** on a standard desktop.
 
 ---
 
