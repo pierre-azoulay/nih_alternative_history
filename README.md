@@ -54,7 +54,7 @@ This repository contains the materials to reproduce the quantitative results for
    ```
 5. Outputs (tables/figures) will be written to `./tables` and `./graphs`.
 
-> Typical runtime: **< 30 secons** on a standard desktop.
+> Typical runtime: **< 30 seconds** on a standard desktop.
 
 ---
 
@@ -64,13 +64,11 @@ The master do-file generates replication outputs corresponding to the main manus
 
 | Publication item                 | Where produced                                | Output location |
 | -------------------------------- | --------------------------------------------- | --------------- |
-| Table 1                          | `alternative_history.do` (main specification) | `tables/`       |
-| Table 2                          | `alternative_history.do` (main specification) | `tables/`       |
+| Table 1                          | `alternative_history.do` (relevant sections) | `tables/`       |
+| Table 2                          | `alternative_history.do` (relevant sections) | `tables/`       |
 | Figure S1                        | `alternative_history.do` (relevant sections)  | `graphs/`       |
 | Figure S2                        | `alternative_history.do` (relevant sections)  | `graphs/`       |
 | Figure S3                        | `alternative_history.do` (relevant sections)  | `graphs/`       |
-
-> File names are determined within the do-file.
 
 ---
 
@@ -180,7 +178,7 @@ See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/l
 
 ## Versioning & provenance
 
-* Current version: **v0.0.1 (alpha)**.
+* Current version: **v0.0.4 (alpha)**.
 * Archived at Zenodo with DOI badge above; Software Heritage archival link is recorded in the Zenodo metadata.
 * A full **changelog** will be maintained in `CHANGELOG.md` as releases progress to v1.0 on publication.
 
@@ -210,7 +208,7 @@ No external funding or data provider acknowledgments to report.
 **A:** Install the ado from SSC: `ssc install reghdfe, replace`, restart Stata, and re-run the script.
 
 **Q:** Where are the raw data?
-**A:** This package includes the processed analysis datasets (`.dta`). If raw data or construction code is needed for transparency, we will add them under `/data_raw` and `/code/data_prep` with documentation.
+**A:** This package includes the processed analysis datasets (`.dta`).
 
 **Q:** Can I reuse these materials?
 **A:** Yes, under the CC BY 4.0 terms for data/text. Code license is specified above (once finalized).
