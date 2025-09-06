@@ -88,7 +88,7 @@ This package includes two Stata datasets used by the analysis:
 * `sustained_rdm.dta` — generates Figure S3 (budget cut sensitivity analysis).
 
 > **IMPORTANT NOTE:**
-> NIH priority scores are NOT public information, and were provided to one of the authors under a confidentiality agreement. The scores provided in these data are random draws from the empirical distribution of actual scores, they are not actual scores. As a result, the data and Stata code below can be used to replicate the numbers in Tables 1 & 2 in the main manuscript, but they cannot and should not be used to identify which specific drug would be affected by an hypothetical NIH budget cut. Because the scores are randomly generated, the results differ slightly from those that can be observed in Tables 1 and 2, but are qualitatively similar.
+> NIH priority scores are NOT public information, and were provided to one of the authors under a confidentiality agreement in 2008. The scores provided in these data are random draws from the empirical distribution of actual scores, not the actual scores. As a result, the data and Stata code below can be used to replicate closely (but not exactly) the numbers in Tables 1 & 2 in the manuscript, but they cannot and should not be used to identify which specific drug would be affected by an hypothetical NIH budget cut.
 
 ### Data dictionary (variables in supplied `.dta` files)
 
