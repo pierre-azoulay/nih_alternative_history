@@ -284,7 +284,7 @@ graph export "${F9}graphs/tif/figure_s1a.tif", as(tif) width(2000) replace;
 graph export "${F9}graphs/png/figure_s1a.png", as(png) width(2000) replace;
 graph close;
 mylabels 0(10)40, myscale(@/100) suffix(%) local(pct_yaxis);
-twoway (histogram nb_pubs_ttl2, frac discrete xlabel(0(10)75, labsize(small) tlength(.75) format(%4.0f) grid glwidth(vvthin) glcolor(gs13)) ylabel(`pct_yaxis', labsize(small) tlength(.75) angle(horizontal) format(%9.3f) grid glwidth(vvthin) glcolor(gs13)) gap(9) color(stblue%50) lwidth(none) graphregion(color(white)) xtitle("Number of Referenced Publications", size(medsmall)) ytitle("Proportion of Approved Drugs", size(medsmall))) (histogram nb_pubs_ylnkd2, frac discrete color(stred%30) gap(9) lwidth(none) graphregion(color(white))), legend(order(1 "Total" 2 "At risk") position(1) ring(0) size(small)) saving("${F9}graphs/gph/figure_s1b.gph", replace);
+twoway (histogram nb_pubs_ttl2, frac discrete xlabel(0(10)75, labsize(small) tlength(.75) format(%4.0f) grid glwidth(vvthin) glcolor(gs13)) ylabel(`pct_yaxis', labsize(small) tlength(.75) angle(horizontal) format(%9.3f) grid glwidth(vvthin) glcolor(gs13)) gap(9) color(stblue%50) lwidth(none) graphregion(color(white)) xtitle("Number of Referenced Publications", size(medsmall)) ytitle("Proportion of Approved Drugs", size(medsmall))) (histogram nb_pubs_ylnkd2, frac discrete color(stred%30) gap(9) lwidth(none) graphregion(color(white))), legend(order(1 "Total" 2 "NIH-linked") position(1) ring(0) size(small)) saving("${F9}graphs/gph/figure_s1b.gph", replace);
 graph export "${F9}graphs/tif/figure_s1b.tif", as(tif) width(2000) replace;
 graph export "${F9}graphs/png/figure_s1b.png", as(png) width(2000) replace;
 graph close;
