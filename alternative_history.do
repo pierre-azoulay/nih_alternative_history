@@ -11,14 +11,19 @@ global F9 "E:/Dropbox/CGAF/2019/project_40pct/writing/revision/replication/";
 
 /* IMPORTANT NOTE: NIH priority scores are NOT public information, and were provided to one of the authors under a confidentiality agreement. 	*/
 /* The scores provided in these data are random draws from the empirical distribution of actual scores, they are not actual scores. 		*/
-/* As a result, the data and Stata code below can be used to repliacte the numbers in Tables 1 & 2 in the main manuscript, but they cannot	*/
-/* and should not be used to identify which specific drug would be affected by an hypothertical NIH budget cut. Because the scores are randomly	*/
-/* generated, the results differ slightly from thos that can be observed in Tables 1 and 2, but are qualitatively similar. 			*/
-
-/* For the file to run, the reader should create two subfolders names graphs and tables respectively, within the working directory. */
+/* As a result, the data and Stata code below can be used to replicate the numbers in Tables 1 & 2 in the main manuscript, but they cannot	*/
+/* and should not be used to identify which specific drug would be affected by an hypothetical NIH budget cut. Because the scores are randomly	*/
+/* generated, the results differ slightly from those that can be observed in Tables 1 and 2, but are qualitatively similar. 			*/
 
 cd /;
 cd "${F9}";
+
+
+capture mkdir "tables";
+capture mkdir "graphs";
+capture mkdir "graphs/png";
+capture mkdir "graphs/tif";
+capture mkdir "graphs/gph";
 
 /* The file sustained_rdm.dta is an approval level file (N=557) with covariates relating to direct and indirect acknowledgements of NIH grants.	*/
 
