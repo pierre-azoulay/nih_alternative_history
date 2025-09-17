@@ -10,8 +10,6 @@
 
 **Repository:** [https://github.com/pierre-azoulay/nih\_alternative\_history](https://github.com/pierre-azoulay/nih_alternative_history)
 
-**First archived release:** v0.0.1 (alpha) — [https://github.com/pierre-azoulay/nih\_alternative\_history/releases/tag/v0.0.1](https://github.com/pierre-azoulay/nih_alternative_history/releases/tag/v0.0.1)
-
 **Zenodo record:** [https://doi.org/10.5281/zenodo.17065831](https://doi.org/10.5281/zenodo.17065831)
 
 ---
