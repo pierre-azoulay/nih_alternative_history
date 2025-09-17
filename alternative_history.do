@@ -18,6 +18,7 @@ global F9 "E:/Dropbox/CGAF/2019/project_40pct/writing/revision/replication/";
 cd /;
 cd "${F9}";
 
+ssc install mylabels, replace;
 
 capture mkdir "tables";
 capture mkdir "graphs";
