@@ -1,7 +1,7 @@
 # What if the NIH had been 40% smaller? An Alternative History — Replication Package
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17065831.svg)](https://doi.org/10.5281/zenodo.17065831)
-[![Release](https://img.shields.io/badge/release-v0.0.1-blue)](https://github.com/pierre-azoulay/nih_alternative_history/releases/tag/v0.0.1)
+[![Release](https://img.shields.io/badge/release-v0.0.5-blue)](https://github.com/pierre-azoulay/nih_alternative_history/releases/tag/v0.0.1)
 [![Language](https://img.shields.io/badge/language-Stata-1f7a8c)](https://www.stata.com/)
 [![License (data/text)](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 [![Code License](https://img.shields.io/badge/code%20license-MIT-brightgreen)](https://opensource.org/licenses/MIT)
@@ -178,7 +178,7 @@ See [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/l
 
 ## Versioning & provenance
 
-* Current version: **v0.0.4 (alpha)**.
+* Current version: **v0.0.5 (alpha)**.
 * Archived at Zenodo with DOI badge above; Software Heritage archival link is recorded in the Zenodo metadata.
 * A full **changelog** will be maintained in `CHANGELOG.md` as releases progress to v1.0 on publication.
 
@@ -193,7 +193,7 @@ No external funding or data provider acknowledgments to report.
 ## Checklist (for replicators)
 
 * [ ] Stata 19.5 installed on Windows 11 (or compatible version/OS).
-* [ ] No third‑party ado-packages required.
+* [ ] Install the ado from SSC: `ssc install mylabels, replace`.
 * [ ] Repository cloned and working directory set to repo root.
 * [ ] `tables/` and `graphs/` directories exist (or created via Stata commands in Quick start).
 * [ ] `do alternative_history.do` completes without error in < 1 minute.
